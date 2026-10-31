@@ -1,0 +1,22 @@
+[project]
+name = "tradeday"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "langchain>=1.4.7",
+    "langchain-cohere>=0.6.0",
+    "langchain-community>=0.4.2",
+    "langchain-tavily>=0.2.18",
+    "pydantic>=2.14.2",
+    "python-dotenv>=1.2.4",
+    "tavily-python>=0.8.5",
+    "tzdata>=2026.6",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.2.0",
+    "pytest-asyncio>=1.4.1",
+]
